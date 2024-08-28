@@ -1,0 +1,6 @@
+// Test module using the scope of the parent module.
+@test module;
+
+import lib.ft4.assets. { get_asset_balance };
+import lib.ft4.core.accounts.strategies.transfer. { get_pending_transfer_strategies, has_pending_create_account_transfer_for_strategy };
+import lib.ft4.core.accounts.strategies.transfer.subscription. { ras_transfer_subscription, get_subscription_details, renew_subscription };
